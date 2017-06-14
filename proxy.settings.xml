@@ -1,0 +1,8 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_TYPE_IS_SOCKS" value="true" />
+    <option name="PROXY_HOST" value="pptp.vpn.xlink.space" />
+    <option name="PROXY_AUTHENTICATION" value="true" />
+    <option name="PROXY_LOGIN" value="60000638" />
+  </component>
+</application>
