@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "153836754701",
+    "firebase_url": "https://dont-be-late-25a1a.firebaseio.com",
+    "project_id": "dont-be-late-25a1a",
+    "storage_bucket": "dont-be-late-25a1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153836754701:android:c4dee9a29d821a5e",
+        "android_client_info": {
+          "package_name": "com.dontbelate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153836754701-a6f1ut1kegl5f7mefv2egq8vs50ajqtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dontbelate",
+            "certificate_hash": "669d2aa9cc79eb70973d879a59ad5a49f430288e"
+          }
+        },
+        {
+          "client_id": "153836754701-c1faedufj4vprbth76cksrplb0bkdqm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8mr-A4mzY5ltBI5C_8PsEzXKY--sBpwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153836754701-c1faedufj4vprbth76cksrplb0bkdqm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

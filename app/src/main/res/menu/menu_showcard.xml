@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_view"
+        android:orderInCategory="100"
+        android:title="View" />
+
+    <item
+        android:id="@+id/action_match_request"
+        android:orderInCategory="101"
+        android:title="Match request" />
+</menu>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dontbelate.MatchingActivities.MatchingDetails"
+    tools:showIn="@layout/activity_matching_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_matching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Name: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Gender: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Location: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="University: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textUniversity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Birthday: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Weight: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Height: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Martial status: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textMartialStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Education Background: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textEducationBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Place of Birth: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textPlaceOfBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Occupation: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textOccupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Belief: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textBelief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Did he/she has any child?"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Soliloquy: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textSoliloquy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Things make him/her happy: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textHappyThings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Stuff that he/she cannot leave: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textStuffCannotDoWithout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Characteristics that his/her partner should have: "
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textIdealPartnetCharacteristics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Loading"
+            android:textColor="?android:attr/textColorPrimaryDisableOnly"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
