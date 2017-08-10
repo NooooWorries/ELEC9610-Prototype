@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerGender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>L</item>
+        <item>G</item>
+        <item>B</item>
+        <item>T</item>
+    </string-array>
+</resources>

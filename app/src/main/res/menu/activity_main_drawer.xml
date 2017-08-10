@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_matching"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Matching" />
+
+        <item
+            android:id="@+id/nav_couple"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Couple" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Message" />
+
+        <item
+            android:id="@+id/nav_consult"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Consult" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerLocation">
+        <item>NSW</item>
+        <item>VIC</item>
+        <item>ACT</item>
+        <item>TAS</item>
+        <item>QLD</item>
+        <item>NT</item>
+        <item>SA</item>
+        <item>WA</item>
+        <item>Overseas</item>
+    </string-array>
+</resources>
